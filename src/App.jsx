@@ -1,15 +1,16 @@
 import "./App.css";
 import CourseList from "./components/CourseList";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 function App() {
   return (
     <div>
-      <h1>my Course (3)</h1>
+      <Header />
       <CourseList />
+      <Footer />
     </div>
   );
 }
 
 export default App;
-
-
